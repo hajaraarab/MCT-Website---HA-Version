@@ -1,0 +1,14 @@
+title: Home
+
+fields:
+  heroPreview:
+    label: Preview
+    type: info
+    text: "<img src='{{ page.image('hero.png').url }}' style='max-width:100%; border-radius:12px;'>"
+    
+  hero:
+    label: Hero image
+    type: files
+    max: 1
+
+
