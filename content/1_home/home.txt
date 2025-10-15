@@ -2,4 +2,8 @@ Title: Home
 
 ----
 
+hero: hero.png
+
+----
+
 Uuid: lIRDkzL2veZ16X3O

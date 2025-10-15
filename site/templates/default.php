@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
-<h1><?= $page->title() ?></h1>
+<div class="container">
+    <h1><?= $page->title() ?></h1>
+</div>s
 
 <?php snippet('footer') ?>

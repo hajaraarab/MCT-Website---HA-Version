@@ -15,7 +15,9 @@
 </head>
 <body>
 
+<div class="container">
     <header class="header">
         <a class="logo" href="<?= $site->url() ?>"><?= $site->title() ?></a>
         <?php snippet('menu') ?>
     </header>
+</div>
