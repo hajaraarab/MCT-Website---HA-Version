@@ -21,4 +21,47 @@ Hero: - file://kS6hJjqNxtiLhq2f
 
 ----
 
+Profilelinks:
+
+- 
+  title: AV
+  link: https://www.google.be
+  icon:
+    - file://a3M9osBbDdwei1CL
+- 
+  title: 3D VFX
+  link: ""
+  icon:
+    - file://B70JA1nf1OJTpAPl
+- 
+  title: WEB
+  link: ""
+  icon:
+    - file://VU6S8C6W340pYMfH
+- 
+  title: DIGITAL NOMADS
+  link: ""
+  icon:
+    - file://FsNCedNu9zGXaU07
+
+----
+
+Profileinfo: Profiles
+
+----
+
+Profileinfotext: You'll graduate amongst one of these four profiles, depending on what interests you the most! Want to find out more? Click the icons for some more info!
+
+----
+
 Uuid: lIRDkzL2veZ16X3O
+
+----
+
+Profileslinks:
+
+- 
+  title: null
+  link: null
+  icon: [ ]
+  _id: 9ea7ac40-d92b-4862-9814-b1f37bbc884c

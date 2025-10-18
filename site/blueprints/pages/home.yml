@@ -4,13 +4,14 @@ columns:
   - width: 1/2
     fields: 
       heroTitle: 
+        help: Here you enter the title that is shown withing the image
         label: Hero title
         type: text
       latestPostsTitle:
-        label: Latest Posts title
+        label: Title for the latest social media posts overview shown on the homepage.
         type: text
       latestPostsText: 
-        label: Intro text for latest posts
+        label: Intro text for the latest posts overview shown on the homepage.
         type: textarea
 
   - width: 1/2
@@ -25,3 +26,33 @@ columns:
         image:
           cover: true
           ratio: 16/9
+
+  - width: 2/2
+    fields: 
+      profileLinks: 
+        help: These are the profiles offered within the program.
+        label: All the profiles within the course
+        type: structure
+        fields: 
+          title: 
+            label: Title 
+            type: text
+          link: 
+            label: Link 
+            type: url
+          icon: 
+            label: Icon 
+            type: files
+            layout: cards
+            accept: 
+              type: image
+            help: Upload één icoon voor dit profiel
+
+  - width: 1/1
+    fields: 
+      profileInfo:
+        label: Titel for the "Profile" overview on the home page.
+        type: text
+      profileInfoText: 
+        label: Text for the "Profile" overview shown on the home page.
+        type: text
