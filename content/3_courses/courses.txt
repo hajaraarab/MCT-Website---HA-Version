@@ -2,4 +2,8 @@ Title: Courses
 
 ----
 
+cover: cover.png
+
+----
+
 Uuid: aCfu1SVEYt0sI2AS

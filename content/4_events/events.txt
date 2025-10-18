@@ -2,4 +2,8 @@ Title: Events
 
 ----
 
+cover: cover.png
+
+----
+
 Uuid: 4PEoa100E0id45Yx

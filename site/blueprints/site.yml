@@ -3,3 +3,11 @@ title: Site
 sections:
   pages:
     type: pages
+    headline: Website Pages
+    layout: cards          # Toont pagina's als kaarten
+    image:
+      query: page.cover.toFile
+      cover: false
+      ratio: 3/1
+      back: 'white'
+      

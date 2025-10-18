@@ -2,4 +2,8 @@ Title: Error
 
 ----
 
+cover: cover.png
+
+----
+
 Uuid: 5U3L2lwkBh8VIkm0
