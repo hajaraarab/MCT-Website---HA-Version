@@ -2,7 +2,22 @@ Title: Home
 
 ----
 
-hero: hero.png
+Herotitle: Step Into The World of Creative Technology
+
+----
+
+Latestpoststitle: Latest Posts
+
+----
+
+Latestpoststext:
+
+Engage with our community through shared experiences,
+carefully and creatively maintained by our social media manager Luna!
+
+----
+
+Hero: - file://kS6hJjqNxtiLhq2f
 
 ----
 
