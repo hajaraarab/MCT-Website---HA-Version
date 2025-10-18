@@ -1,14 +1,27 @@
 title: Home
 
-fields:
-  heroPreview:
-    label: Preview
-    type: info
-    text: "<img src='{{ page.image('hero.png').url }}' style='max-width:100%; border-radius:12px;'>"
-    
-  hero:
-    label: Hero image
-    type: files
-    max: 1
+columns:
+  - width: 1/2
+    fields: 
+      heroTitle: 
+        label: Hero title
+        type: text
+      latestPostsTitle:
+        label: Latest Posts title
+        type: text
+      latestPostsText: 
+        label: Intro text for latest posts
+        type: textarea
 
-
+  - width: 1/2
+    fields: 
+      hero:
+        label: Hero image
+        type: files
+        max: 1
+        layout: cards
+        accept:
+          type: image
+        image:
+          cover: true
+          ratio: 16/9

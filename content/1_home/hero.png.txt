@@ -2,7 +2,15 @@ Alt: This is Karel De Grote Hogeschool
 
 ----
 
-Caption: 
+Caption: The school
+
+----
+
+Photographer: 
+
+----
+
+Template: hero-image
 
 ----
 
