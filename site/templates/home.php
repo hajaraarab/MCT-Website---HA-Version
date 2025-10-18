@@ -2,11 +2,14 @@
     $heroImage = $page->hero()->toFile(); 
 
     $aboutPage = $site->find('about'); 
+    $coursesPage = $site->find('courses'); 
 
     $latestPostsTitle = $page->latestPostsTitle(); 
     $latestPostsText = $page->latestPostsText(); 
 
     $profiles = $page->profileLinks()->toStructure();
+    $courses = $page->yearOverview()->toStructure(); 
+    
 ?>
 
 <?php snippet('header') ?>
@@ -42,15 +45,15 @@
             <?php foreach($profiles as $profile): ?>
                 <div class="profile-card">
 
-                        <?php $icon = $profile->icon()->toFile(); ?>
+                    <?php $icon = $profile->icon()->toFile(); ?>
 
-                        <div class="icon-circle">
-                            <?php if($icon): ?>
-                                <img src="<?= $icon->url() ?>">
-                            <?php endif ?>
-                        </div>
-                        <p class="title"><?= $profile->title() ?></p>
-                        <a class="link" href="<?= $profile->link() ?>">See more</a>
+                    <div class="icon-circle">
+                        <?php if($icon): ?>
+                            <img src="<?= $icon->url() ?>">
+                        <?php endif ?>
+                    </div>
+                    <p class="title"><?= $profile->title() ?></p>
+                    <a class="link" href="<?= $profile->link() ?>">See more</a>
 
                 </div>
 
@@ -63,6 +66,25 @@
         </div>
     </div>
 
+    <div class="courses-preview">
+        <h1><?= $page->coursesOverviewTitle() ?></h1>
+
+        <div class="courses-preview-card">
+            <?php foreach($courses as $course): ?>
+
+                <?php $coursePicture = $course->image()->toFile(); ?>
+                <?php if($coursePicture): ?>
+                    <img src="<?= $coursePicture->url() ?>">
+                <?php endif ?>
+
+                <div class="info">
+                    <h3><?= $course->title() ?></h3>
+                    <p><?= $course->text() ?></p>
+                </div>
+            
+            <?php endforeach ?>
+        </div>
+    </div>
 </div>
 
 <?php snippet('footer') ?>
