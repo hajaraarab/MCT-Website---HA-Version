@@ -54,6 +54,33 @@ Profileinfotext: You'll graduate amongst one of these four profiles, depending o
 
 ----
 
+Coursesoverviewtitle: Courses
+
+----
+
+Yearoverview:
+
+- 
+  title: First Year
+  text: Discover all first year courses here!
+  image:
+    - file://rBnuW6NNM1tzV1AP
+  link: ""
+- 
+  title: Second Year
+  text: Discover all second year subjects here!
+  image:
+    - file://ZahocLkFyQN0kaf9
+  link: ""
+- 
+  title: Third Year
+  text: Discover all third year subjects here!
+  image:
+    - file://W0dFaZAXY3EsNsKQ
+  link: ""
+
+----
+
 Uuid: lIRDkzL2veZ16X3O
 
 ----

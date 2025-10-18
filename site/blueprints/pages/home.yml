@@ -3,10 +3,19 @@ title: Home
 columns:
   - width: 1/2
     fields: 
+      heroHeadline: 
+        label: Hero Section
+        type: headline 
+
       heroTitle: 
         help: Here you enter the title that is shown withing the image
         label: Hero title
         type: text
+
+      latestPostsHeadline: 
+        label: Latest Posts Section
+        type: headline
+
       latestPostsTitle:
         label: Title for the latest social media posts overview shown on the homepage.
         type: text
@@ -16,6 +25,9 @@ columns:
 
   - width: 1/2
     fields: 
+      heroImageHeadline:
+        label: Hero Image 
+        type: headline
       hero:
         label: Hero image
         type: files
@@ -29,19 +41,23 @@ columns:
 
   - width: 2/2
     fields: 
+      profileLinksHeadline: 
+        label: Course Profiles Section
+        type: headline
+
       profileLinks: 
         help: These are the profiles offered within the program.
         label: All the profiles within the course
         type: structure
         fields: 
           title: 
-            label: Title 
+            label: Name of the profile
             type: text
           link: 
-            label: Link 
+            label: Link for more information 
             type: url
           icon: 
-            label: Icon 
+            label: An icon that fits the profile 
             type: files
             layout: cards
             accept: 
@@ -55,4 +71,40 @@ columns:
         type: text
       profileInfoText: 
         label: Text for the "Profile" overview shown on the home page.
+        type: textarea
+
+  - width: 1/1
+    fields:  
+      coursesOverviewHeadline: 
+        label: Courses Section
+        type: headline
+      
+      coursesOverviewTitle: 
+        label: Courses
         type: text
+
+  - width: 1/1
+    fields: 
+      yearOverview: 
+        label: Year overview of the courses
+        type: structure
+        help: Here you enter the year overview of the course Multimedia & Creative Technology
+        fields: 
+          title: 
+            type: text
+            label: What year ?
+          text: 
+            type: textarea
+            label: A brief summary of your academic year. 
+          image: 
+            type: files
+            max: 1
+            layout: cards
+            label: An image of students projects from that year. 
+          link: 
+            type: url 
+            label: Link for more information
+        min: 1
+        max: 3
+
+        
