@@ -107,4 +107,34 @@ columns:
         min: 1
         max: 3
 
+  - width: 1/2
+    fields: 
+      enrollHeadline: 
+        label: Enroll Section
+        type: headline
+        help: Section containing enrollment details and a link to the appropriate website.
+
+      enrollTitle:
+        label: Enroll Title
+        type: text
+      enrollText: 
+        label: Motivational text for the enrollment overview.
+        type: textarea
+
+  - width: 1/2
+    fields: 
+      schoolLogoHeadline:
+        label: School Logo
+        type: headline
+        help: Logo of the school shown in the enrollment section of the homepage. 
+      schoolLogo:
+        label: School logo
+        type: files
+        max: 1
+        layout: cards
+        accept:
+          type: image
+        image:
+          cover: true
+          ratio: 16/9
         

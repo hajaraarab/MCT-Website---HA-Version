@@ -2,6 +2,10 @@ Title: Home
 
 ----
 
+cover: cover.png
+
+----
+
 Herotitle: Step Into The World of Creative Technology
 
 ----
@@ -78,6 +82,18 @@ Yearoverview:
   image:
     - file://W0dFaZAXY3EsNsKQ
   link: ""
+
+----
+
+Enrolltitle: Discover Your Passion!
+
+----
+
+Enrolltext: Join us and explore the exciting world of multimedia & creative technologies.
+
+----
+
+Schoollogo: - file://KjjuAyXTzP4Vw4Oz
 
 ----
 
