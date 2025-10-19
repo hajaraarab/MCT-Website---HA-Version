@@ -130,6 +130,63 @@ Portfoliopreview:
 
 ----
 
+Faqtitle: FAQ
+
+----
+
+Accordion:
+
+- 
+  question: >
+    Is this course available for
+    international students?
+  anwser: >
+    Yes! Currently this course is split
+    between the Dutch version and an
+    exchange-friendly English version.
+  summary: >
+    Is this course available for
+    international students?
+  details: >
+    Yes! Currently this course is split
+    between the Dutch version and an
+    exchange-friendly English version.
+- 
+  question: What computer do I need?
+  anwser: something
+  summary: What computer do I need?
+  details: something
+- 
+  question: What are my internship possibilities?
+  anwser: something
+  summary: What are my internship possibilities?
+  details: something
+- 
+  question: What if I have special needs?
+  anwser: something
+  summary: What if I have special needs?
+  details: something
+- 
+  question: >
+    How can we get to campus (and are there
+    any housing possibilities/dormitories)?
+  anwser: something
+  summary: >
+    How can we get to campus (and are there
+    any housing possibilities/dormitories)?
+  details: something
+- 
+  question: >
+    Can we go on exchange programs through
+    this course?
+  anwser: something
+  summary: >
+    Can we go on exchange programs through
+    this course?
+  details: something
+
+----
+
 Cover: cover.png
 
 ----

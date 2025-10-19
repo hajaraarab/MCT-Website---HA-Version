@@ -14,6 +14,8 @@
 
     <?php snippet('portfolios-preview') ?>
 
+    <?php snippet('faq') ?>
+
 </div>
 
 <?php snippet('footer') ?>

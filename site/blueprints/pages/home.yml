@@ -176,6 +176,24 @@ columns:
             max: 1
             layout: cards
             label: Photo showing students working on their portfolios
-          
-      
-        
+
+  - width: 1/1
+    fields:
+      faq: 
+        label: FAQ 
+        type: headline
+        help: Here are the most frequently asked questions by students about this course. They will be displayed in the FAQ section.
+      faqTitle: 
+        label: Title for this section
+        type: text
+      accordion:
+        label: Accordion
+        type: structure
+        fields:
+          question:
+            label: Question
+            type: text
+          anwser:
+            label: Anwser
+            type: textarea
+            buttons: false
