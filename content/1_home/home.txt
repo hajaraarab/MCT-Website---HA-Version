@@ -2,10 +2,6 @@ Title: Home
 
 ----
 
-cover: cover.png
-
-----
-
 Herotitle: Step Into The World of Creative Technology
 
 ----
@@ -94,6 +90,47 @@ Enrolltext: Join us and explore the exciting world of multimedia & creative tech
 ----
 
 Schoollogo: - file://KjjuAyXTzP4Vw4Oz
+
+----
+
+Portfoliotitle: Portfolios
+
+----
+
+Portfoliointro: Check out our student's content!
+
+----
+
+Portfoliopreview:
+
+- 
+  portfolioname: The art of UX Design
+  portfolioinfo: 3rd Year UX/UI
+  portfolioauthor: Kyrenia De Loenen
+  image:
+    - file://TrJHpTMd0xprG0Nr
+- 
+  portfolioname: The art of UX Design
+  portfolioinfo: 3rd Year UX/UI
+  portfolioauthor: Kyrenia De Loenen
+  image:
+    - file://TrJHpTMd0xprG0Nr
+- 
+  portfolioname: Video Editing Trends
+  portfolioinfo: 3rd Year AV
+  portfolioauthor: Amir Akodad
+  image:
+    - file://h3TiPECSAWNG7ZZd
+- 
+  portfolioname: Video Editing Trends
+  portfolioinfo: 3rd Year AV
+  portfolioauthor: Amir Akodad
+  image:
+    - file://h3TiPECSAWNG7ZZd
+
+----
+
+Cover: cover.png
 
 ----
 

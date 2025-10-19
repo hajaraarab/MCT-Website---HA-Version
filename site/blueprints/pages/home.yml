@@ -9,18 +9,19 @@ columns:
 
       heroTitle: 
         help: Here you enter the title that is shown withing the image
-        label: Hero title
+        label: Title for this section
         type: text
 
       latestPostsHeadline: 
         label: Latest Posts Section
         type: headline
+        help: This section displays the latest social media posts.
 
       latestPostsTitle:
-        label: Title for the latest social media posts overview shown on the homepage.
+        label: Title for this section
         type: text
       latestPostsText: 
-        label: Intro text for the latest posts overview shown on the homepage.
+        label: Intro for this section
         type: textarea
 
   - width: 1/2
@@ -80,7 +81,7 @@ columns:
         type: headline
       
       coursesOverviewTitle: 
-        label: Courses
+        label: Title for this section
         type: text
 
   - width: 1/1
@@ -115,11 +116,13 @@ columns:
         help: Section containing enrollment details and a link to the appropriate website.
 
       enrollTitle:
-        label: Enroll Title
+        label: Title for this section
         type: text
       enrollText: 
-        label: Motivational text for the enrollment overview.
+        label: Intro for this section
         type: textarea
+        minlength: 20
+        maxlength: 150
 
   - width: 1/2
     fields: 
@@ -137,4 +140,42 @@ columns:
         image:
           cover: true
           ratio: 16/9
+
+  - width: 1/2
+    fields: 
+      portfolioHeadline: 
+        label: Portfolio Section
+        type: headline
+      portfolioTitle:
+        label: Title for this section
+        type: text 
+      portfolioIntro: 
+        label: Intro for this section
+        type: textarea
+        minlength: 20
+        maxlength: 150
+
+  - width: 1/1
+    fields: 
+      portfolioPreview: 
+        label: Portfolio's preview of the students
+        type: structure
+        help: Section containing portfolios from previews students. 
+        fields: 
+          portfolioName: 
+            label: Title for this portfolio
+            type: text
+          portfolioInfo: 
+            label: Student year & profile
+            type: text
+          portfolioAuthor: 
+            label: Name of the creator 
+            type: text
+          image: 
+            type: files
+            max: 1
+            layout: cards
+            label: Photo showing students working on their portfolios
+          
+      
         
