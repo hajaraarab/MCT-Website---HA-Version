@@ -10,8 +10,9 @@
     <?php endif ?>
 
     <div class="enroll-info">
-        <h2><?= $page->enrollTitle() ?></h2>
-        <p><?= $page->enrollText() ?></p>
-        <button>Enroll</button>
+        <p class="secondary-title"><?= $page->enrollTitle() ?></p>
+        <p class="main-text"><?= $page->enrollText() ?></p>
     </div>
+
+    <button class="secondary-btn">Enroll</button>
 </div>

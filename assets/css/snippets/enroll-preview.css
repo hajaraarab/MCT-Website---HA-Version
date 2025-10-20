@@ -1,0 +1,26 @@
+.enroll {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    background-color: black;
+    color: white; 
+    padding: 30px; 
+
+    img {
+        width: 12%; 
+    }
+}
+
+.enroll-info {
+    display: flex; 
+    flex-direction: column;
+
+    .secondary-title {
+        margin-bottom: 10px; 
+    }
+    .main-text {
+        margin-top: 0; 
+    }
+}

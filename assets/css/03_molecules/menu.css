@@ -1,0 +1,13 @@
+.menu ul {
+    display: flex; 
+    gap: 30px; 
+    list-style: none;
+    text-decoration: none;
+}
+.menu a.active {
+    color: var(--primary-color); 
+    font-weight: 700; 
+}
+.menu a:hover {
+    text-decoration: underline; /* Optioneel, om hover te onderscheiden */
+}

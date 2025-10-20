@@ -9,15 +9,13 @@
 
 <div class="about-and-posts">
     <div class="about-preview">
-        <h1><?= $aboutPage->title() ?></h1>
-        <p><?= $aboutPage->previewText() ?></p>
+        <p class="primary-title"><?= $aboutPage->title() ?></p>
+        <p class="primary-text"><?= $aboutPage->previewText() ?></p>
     </div>
     <div class="lates-posts-preview">
-        <h1><?= $latestPostsTitle ?></h1>
-        <p><?= $latestPostsText ?></p>
+        <p class="primary-title"><?= $latestPostsTitle ?></p>
+        <p class="primary-text" ><?= $latestPostsText ?></p>
 
-        <button>Follow us</button>
-
-        <div class="instagram-post"></div>
+        <button class="primary-btn">Follow us</button>
     </div>
 </div>

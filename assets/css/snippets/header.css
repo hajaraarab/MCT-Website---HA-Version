@@ -1,0 +1,13 @@
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.03);
+    width: 100%; 
+    height: auto; 
+    padding: 5px; 
+}
+.header a {
+    text-decoration: none;
+    color: inherit; 
+}

@@ -17,6 +17,7 @@
                         <img src="<?= $icon->url() ?>">
                     <?php endif ?>
                 </div>
+                
                 <p class="title"><?= $profile->title() ?></p>
                 <a class="link" href="<?= $profile->link() ?>">See more</a>
 
@@ -25,7 +26,7 @@
     </div>
     
     <div class="profiles-overview">
-        <h1><?= $page->profileInfo() ?></h1>
-        <p><?= $page->profileInfoText() ?></p>
+        <p class="primary-title"><?= $page->profileInfo() ?></p>
+        <p class="primary-text"><?= $page->profileInfoText() ?></p>
     </div>
 </div>

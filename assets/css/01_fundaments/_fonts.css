@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype'),
+       url('../../fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KdG-Regular';
+  src: url('../../fonts/KdG-Regular.otf/KdG-Regular.otf') format('opentype'),
+       url('../../fonts/KdG-Regular.otf/KdG-Regular.woff') format('woff');
+  font-weight: 100 900; 
+  font-style: normal; 
+}
+
+
+/* TITLES */
+.primary-title {
+    font-family: 'KdG-Regular';
+    font-size: 35px; 
+}
+.secondary-title {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700; 
+}
+.tertiary-title {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 600; 
+    color: var(--primary-color); 
+    margin-bottom: 5px; 
+}
+.logo {
+    font-family: 'KdG-Regular';
+    font-size: 25px; 
+    font-weight: 600; 
+}
+
+/* TEXT */
+.main-text {
+    font-family: 'Roboto';
+    font-size: 16px; 
+}
+.menu-text, .anwser-text {
+    font-family: 'Roboto';
+    font-size: 17px; 
+}
+.primary-text {
+    font-family: 'Roboto';
+    font-size: 14px; 
+}
+.name {
+    font-family: 'Roboto';
+    font-size: 13px; 
+    font-weight: 500;
+}

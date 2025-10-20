@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <div class="container">
-    <h1><?= $page->title() ?></h1>
+    <p class="primary-title"><?= $page->title() ?></p>
 </div>
 
 <?php snippet('footer') ?>

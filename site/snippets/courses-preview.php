@@ -6,19 +6,21 @@
 ?>
 
 <div class="courses-preview">
-    <h1><?= $page->coursesOverviewTitle() ?></h1>
+    <p class="primary-title"><?= $page->coursesOverviewTitle() ?></p>
 
-    <div class="courses-preview-card">
+    <div class="courses-preview-cards">
         <?php foreach($courses as $course): ?>
 
-            <?php $coursePicture = $course->image()->toFile(); ?>
-            <?php if($coursePicture): ?>
-                <img src="<?= $coursePicture->url() ?>">
-            <?php endif ?>
+            <div class="courses-preview-card">
+                <?php $coursePicture = $course->image()->toFile(); ?>
+                <?php if($coursePicture): ?>
+                    <img class="profile-picture" src="<?= $coursePicture->url() ?>">
+                <?php endif ?>
 
-            <div class="info">
-                <h3><?= $course->title() ?></h3>
-                <p><?= $course->text() ?></p>
+                <div class="info">
+                    <p class="tertiary-title"><?= $course->title() ?></p>
+                    <p class="main-text"><?= $course->text() ?></p>
+                </div>
             </div>
         
         <?php endforeach ?>

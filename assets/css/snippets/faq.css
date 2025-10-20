@@ -1,0 +1,32 @@
+.faq {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    width: 100%; 
+}
+summary {
+    border: 1px solid black;  
+    font-weight: 600;
+}
+.anwser-text {
+    margin-bottom: 30px; 
+}
+summary, details {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px; 
+
+    .menu-text {
+        margin: 0; 
+        padding: 0; 
+    }
+}
+details[open] summary {
+    color: var(--primary-color); 
+    border: 2px solid var(--primary-color); 
+}

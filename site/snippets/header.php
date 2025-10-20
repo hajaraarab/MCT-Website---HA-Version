@@ -10,7 +10,6 @@
         <title><?= $site->seoTitle()->or($page->title()) ?> / <?= $site->title() ?></title>
     <?php endif ?>
 
-    <?= css('assets/css/index.css') ?>
     <?= css('@auto') ?>
 </head>
 <body>

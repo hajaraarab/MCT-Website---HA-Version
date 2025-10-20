@@ -5,24 +5,26 @@
 ?>
 
 <div class="portfolios-preview">
-    <h3><?= $page->portfolioTitle() ?></h3>
-    <p><?= $page->portfolioIntro() ?></p>
+    <p class="primary-title"><?= $page->portfolioTitle() ?></p>
+    <p class="main-text"><?= $page->portfolioIntro() ?></p>
 
-    <?php foreach($portfolios as $portfolio): ?>
-        <div class="portfolio-card">
+    <div class="portfolio-cards">
+        <?php foreach($portfolios as $portfolio): ?>
+            <div class="portfolio-card">
 
-            <?php $portfolioPicture = $portfolio->image()->toFile(); ?>
-            <?php if($portfolioPicture): ?>
-                <img src="<?= $portfolioPicture->url() ?>">
-            <?php endif; ?>
+                <?php $portfolioPicture = $portfolio->image()->toFile(); ?>
+                <?php if($portfolioPicture): ?>
+                    <img src="<?= $portfolioPicture->url() ?>">
+                <?php endif; ?>
 
-            <div class="porfolio-info">
-                <h4><?= $portfolio->portfolioName() ?></h4>
-                <p><?= $portfolio->portfolioInfo() ?></p>
-                <p><?= $portfolio->portfolioAuthor() ?></p>
+                <div class="porfolio-info">
+                    <p class="tertiary-title"><?= $portfolio->portfolioName() ?></p>
+                    <p class="main-text"><?= $portfolio->portfolioInfo() ?></p>
+                    <p class="name"><?= $portfolio->portfolioAuthor() ?></p>
+                </div>
             </div>
-        </div>
-    <?php endforeach ?>
+        <?php endforeach ?>
+    </div>
 
-    <button>See more</button>
+    <button class="primary-btn">See more</button>
 </div>
