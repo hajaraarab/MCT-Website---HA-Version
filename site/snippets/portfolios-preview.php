@@ -6,7 +6,7 @@
 
 <div class="portfolios-preview">
     <p class="primary-title"><?= $page->portfolioTitle() ?></p>
-    <p class="main-text"><?= $page->portfolioIntro() ?></p>
+    <p class="primary-text"><?= $page->portfolioIntro() ?></p>
 
     <div class="portfolio-cards">
         <?php foreach($portfolios as $portfolio): ?>

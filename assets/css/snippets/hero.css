@@ -5,11 +5,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px; 
+    padding: 70px 0 70px 0; 
+    width: 100%; 
 }
 
 .hero-image {
-    border-radius: var(--border-radius);
+    filter: brightness(70%); 
+    width: 100%;       /* afbeelding vult de breedte van de container */
+    height: auto;      /* hoogte wordt automatisch aangepast */
+    display: block;    /* voorkomt extra ruimte onder de afbeelding */
 }
 
 .hero-section .primary-title {

@@ -10,9 +10,6 @@ summary {
     border: 1px solid black;  
     font-weight: 600;
 }
-.anwser-text {
-    margin-bottom: 30px; 
-}
 summary, details {
     display: flex; 
     flex-direction: column;
@@ -21,7 +18,7 @@ summary, details {
     width: 90%;
     padding: 10px; 
 
-    .menu-text {
+    .main-text {
         margin: 0; 
         padding: 0; 
     }

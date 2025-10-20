@@ -1,11 +1,12 @@
 @import url('../00_common/_variables.css'); 
 @import url('../01_fundaments/_fonts.css'); 
 @import url('../02_atoms/_buttons.css'); 
+@import url('../02_atoms/_line.css'); 
 @import url('../03_molecules/menu.css'); 
 
 @import url('../snippets/header.css');
 @import url('../snippets/hero.css');
-@import url('../snippets/about-and-posts.css');
+@import url('../snippets/about-preview.css');
 @import url('../snippets/profiles-preview.css');
 @import url('../snippets/courses-preview.css');
 @import url('../snippets/enroll-preview.css');

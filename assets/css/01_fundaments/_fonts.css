@@ -39,17 +39,17 @@
 }
 
 /* TEXT */
-.main-text {
+.main-text, .answer-text {
     font-family: 'Roboto';
     font-size: 16px; 
 }
-.menu-text, .anwser-text {
+.menu-text {
     font-family: 'Roboto';
     font-size: 17px; 
 }
 .primary-text {
     font-family: 'Roboto';
-    font-size: 14px; 
+    font-size: 16px; 
 }
 .name {
     font-family: 'Roboto';

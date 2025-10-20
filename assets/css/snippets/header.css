@@ -5,7 +5,14 @@
     box-shadow: 0 2px 0px rgba(0, 0, 0, 0.03);
     width: 100%; 
     height: auto; 
-    padding: 5px; 
+    padding: 5px 100px 5px 100px; 
+    box-sizing: border-box;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000; /* zorgt dat het menu boven andere elementen blijft */
+    background-color: white; /* of jouw achtergrondkleur */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .header a {
     text-decoration: none;

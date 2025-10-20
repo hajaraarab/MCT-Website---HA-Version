@@ -4,11 +4,11 @@
     <?php foreach($page->accordion()->toStructure() as $item): ?>
         <details>
             <summary>
-                <p class="menu-text">
+                <p class="main-text">
                     <?= $item->question() ?>
                 </p>
             </summary>
-            <p class="anwser-text"><?= $item->anwser() ?></p>
+            <p class="answer-text"><?= $item->anwser() ?></p>
         </details>
     <?php endforeach ?>
 </div>

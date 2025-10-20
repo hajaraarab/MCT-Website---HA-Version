@@ -1,6 +1,7 @@
 .courses-preview {
     padding: 50px; 
-    padding-bottom: 100px; 
+    padding-bottom: 150px; 
+    padding-top: 0; 
 
     .primary-title {
         text-align: center;

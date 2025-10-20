@@ -12,18 +12,6 @@ columns:
         label: Title for this section
         type: text
 
-      latestPostsHeadline: 
-        label: Latest Posts Section
-        type: headline
-        help: This section displays the latest social media posts.
-
-      latestPostsTitle:
-        label: Title for this section
-        type: text
-      latestPostsText: 
-        label: Intro for this section
-        type: textarea
-
   - width: 1/2
     fields: 
       heroImageHeadline:
