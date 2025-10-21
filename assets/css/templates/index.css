@@ -3,6 +3,7 @@
 @import url('../02_atoms/_buttons.css'); 
 @import url('../02_atoms/_line.css'); 
 @import url('../03_molecules/menu.css'); 
+@import url('../03_molecules/_banner.css'); 
 
 @import url('../snippets/header.css');
 @import url('../snippets/hero.css');
@@ -24,7 +25,7 @@ html, body {
 }
 .container {
     width: 80%; 
-    margin: 0 auto;  
+    margin: 0 auto;
     display: flex; 
     flex-direction: column;
 }

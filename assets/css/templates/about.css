@@ -1,1 +1,48 @@
 @import url('../templates/index.css');
+
+.about-this-course {
+    text-align: center;
+    margin-bottom: 70px; 
+    padding: 5vh 7vw 5vh 7vw; 
+}
+
+.centered-list {
+    font-family: 'Roboto';
+    font-size: 16px; 
+}
+
+.centered-list ul li{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 1vh; 
+}
+
+.centered-list li::before {
+    content: "- ";             /* vervangt bullet door - */
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.about-banner .banner {
+    padding: 20px 150px; 
+}
+
+.program-details {
+    display: flex; 
+    flex-direction: row;
+    padding: 50px; 
+
+    .info {
+        flex-direction: column;
+        width: 60%; 
+    }
+    .image{
+        width: 40%; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .image img {
+        width: 90%;
+    }
+}
