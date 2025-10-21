@@ -1,7 +1,12 @@
-<div class="faq">
-    <p class="primary-title"><?= $page->faqTitle() ?></p>
+<?php
 
-    <?php foreach($page->accordion()->toStructure() as $item): ?>
+    $homePage = page('home'); 
+?>
+
+<div class="faq">
+    <p class="primary-title"><?= $homePage->faqTitle() ?></p>
+
+    <?php foreach($homePage->accordion()->toStructure() as $item): ?>
         <details>
             <summary>
                 <p class="main-text">

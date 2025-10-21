@@ -1,8 +1,6 @@
-<div class="container">
-    <footer class="footer">
-        This is the footer
-    </footer>
-</div>
+<footer class="footer">
+    This is the footer
+</footer>
 
 </body>
 </html>

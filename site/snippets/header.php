@@ -11,6 +11,7 @@
     <?php endif ?>
 
     <?= css('@auto') ?>
+    <?= css('index.css') ?>
 </head>
 <body>
 

@@ -7,7 +7,7 @@
     
 ?>
 
-<div class="about-preview2">
+<div class="about-preview">
     <div class="about-preview-image">
         <img class="about-image" src="<?= $page->image('about-image.jpg')->url() ?>" alt="">
     </div>
