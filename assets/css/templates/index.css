@@ -2,8 +2,9 @@
 @import url('../01_fundaments/_fonts.css'); 
 @import url('../02_atoms/_buttons.css'); 
 @import url('../02_atoms/_line.css'); 
-@import url('../03_molecules/menu.css'); 
+@import url('../03_molecules/_menu.css'); 
 @import url('../03_molecules/_banner.css'); 
+@import url('../03_molecules/_contact.css'); 
 
 @import url('../snippets/header.css');
 @import url('../snippets/hero.css');
