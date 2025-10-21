@@ -2,11 +2,84 @@ Title: About
 
 ----
 
-cover: cover.png
+Herotitle: About this course
 
 ----
 
-previewText: 
+Hero: - file://2DScaeonWkRq0CSZ
+
+----
+
+Courseinfotitle: What is this Course About ?
+
+----
+
+Courseinfotext:
+
+- Discover the many facets of multimedia: websites & apps, 3D & XR, audio & video.
+- Become an expert in high-end technology and a creator of media productions and useful tools — from livestreams to the metaverse.
+- Multimedia is a team sport for problem solvers: collaborate on projects, think logically, and innovate creatively.
+- Experiment in our FabLab with professional cameras, microphones, VR headsets, Arduinos, Oculus Rifts, Kinects, 3D printers, laser cutters, and of course monitors and mobile devices.  The first year is the same for everyone; after that, you can personalize your study program by choosing between the Web & Mobile, 3D & XR, or Audio/Video profiles.  During coaching sessions and project weeks, you’ll discover your talents and which part of the sector you want to work in.  Media or production house, advertising or event agency, startup or multinational — whatever your interest, there’s a strong chance you’ll land a job immediately after your internship.  International vibes? Study in English and meet students from all over the world in Multimedia & Creative Technologies.
+
+----
+
+Programsummarytitle: What does the program look like ?
+
+----
+
+Programsummarytagline: Multimedia and Creative Technologies is a professional bachelor’s degree worth 180 ECTS credits (three years of study).
+
+----
+
+Yearsummary:
+
+[
+    {
+        "content": {
+            "text": "FIRST YEAR"
+        },
+        "id": "1885959e-1f2b-46cb-ba62-717a71a1b01b",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "You will build a solid technological foundation in audio & video, websites & apps, and 3D & XR.\u2028During project weeks, you’ll get to know yourself and the industry inside out.\u2028Towards the end of the academic year, you will discuss with your faculty coach how to \npersonalize your study program."
+        },
+        "id": "798a362a-45b3-42f3-8e28-dfd23c1cb6e9",
+        "isHidden": false,
+        "type": "text"
+    },
+    {
+        "content": {
+            "text": "SECOND AND THIRD YEAR"
+        },
+        "id": "25668ced-adef-4c75-95ee-b0258f3437ad",
+        "isHidden": false,
+        "type": "heading"
+    },
+    {
+        "content": {
+            "text": "You choose one of three profiles: Web & Mobile, 3D & XR, or Audio/Video.\u2028 You will also complete a bachelor’s thesis and a 56-day internship.\u2028 Some courses are shared with the English-taught program, Multimedia & Creative Technology, allowing you to collaborate with students from all over the world!"
+        },
+        "id": "70a231ea-e3ba-4271-ac2d-586185161c75",
+        "isHidden": false,
+        "type": "text"
+    }
+]
+
+----
+
+Programimage: - file://s4Z9yy0heguEflxC
+
+----
+
+Cover: cover.png
+
+----
+
+Previewtext:
+
 The Multimedia and Creative Technology bachelor's program at Karel de Grote University College combines 
 websites, apps, 3D, XR, and audio-video. You’ll be using cutting-edge tools to create impressive media projects, from 
 livestreams to metaverse experiences. Innovation and collaboration are key, with access to a FabLab full of professional equipment.
@@ -14,3 +87,34 @@ livestreams to metaverse experiences. Innovation and collaboration are key, with
 ----
 
 Uuid: QIAcQBzMBU2NZ6VF
+
+----
+
+Programsummarysections:
+
+- 
+  content:
+    text: iets
+  id: 6a31cad9-dc29-429b-8c5a-16c4c4d1dc10
+  isHidden: false
+  type: heading
+- 
+  content:
+    text: |
+      ja nog iets
+  id: 8025b717-00f2-489e-832c-48363e3ca86a
+  isHidden: false
+  type: text
+- 
+  content:
+    text: tweede
+  id: 2e681ef1-7eda-4652-8084-f3910a660c26
+  isHidden: false
+  type: heading
+- 
+  content:
+    text: |
+      ja nog iets
+  id: aa2ea5a5-41a8-4898-90a4-879a23541cfa
+  isHidden: false
+  type: text

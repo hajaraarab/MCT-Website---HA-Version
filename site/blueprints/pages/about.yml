@@ -1,0 +1,79 @@
+title: About
+
+columns:
+  - width: 1/2
+    fields: 
+      heroHeadline: 
+        label: Hero Section
+        type: headline 
+
+      heroTitle: 
+        help: Here you enter the title that is shown withing the image
+        label: Title for this section
+        type: text
+
+  - width: 1/2
+    fields: 
+      heroImageHeadline:
+        label: Hero Image 
+        type: headline
+      hero:
+        label: Hero image
+        type: files
+        max: 1
+        layout: cards
+        accept:
+          type: image
+        image:
+          cover: true
+          ratio: 16/9
+
+  - width: 1/1
+    fields: 
+      courseInfoHeadline: 
+        label: Course Information Section
+        type: headline 
+      courseInfoTitle: 
+        label: Title for this section
+        type: text
+      courseInfoText: 
+        label: Text for this section
+        type: textarea
+
+  
+  - width: 1/2
+    fields: 
+      programSummaryHeadline: 
+        label: Program Summary Section
+        type: headline
+      programSummaryTitle: 
+        label: Title for this section
+        type: text
+      programSummaryTagline: 
+        label: Tagline for this section
+        type: textarea
+
+      yearSummary:
+        label: Year summary 
+        type: blocks
+        pretty: true
+        fieldsets:
+          - heading
+          - text
+        limit: 4
+
+  - width: 1/2
+    fields: 
+      programSummaryImageHeadline:
+        label: Program Summary Section Image
+        type: headline
+      programImage:
+        label: Program Summary image
+        type: files
+        max: 1
+        layout: cards
+        accept:
+          type: image
+        image:
+          cover: true
+          ratio: 16/9
