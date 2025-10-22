@@ -5,6 +5,7 @@
 @import url('../03_molecules/_menu.css'); 
 @import url('../03_molecules/_banner.css'); 
 @import url('../03_molecules/_contact.css'); 
+@import url('../03_molecules/_table.css'); 
 
 @import url('../snippets/header.css');
 @import url('../snippets/hero.css');

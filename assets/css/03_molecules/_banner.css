@@ -15,6 +15,24 @@
     justify-content: center;
     align-items: center;
 }
+.courses .banner {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0; 
+
+    .titles {
+        display: flex; 
+        flex-direction: row;
+        gap: 20px; 
+    }
+    .primary-title, .titles p {
+        padding-top: 0; 
+        margin-top: 0; 
+    }
+}
+
 
 .banner-info {
     display: flex; 

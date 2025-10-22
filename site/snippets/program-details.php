@@ -15,7 +15,7 @@
                     <?php if ($block->text()->isNotEmpty()): ?>
                         <?php if ($block->type() === 'heading'): ?>
 
-                            <p class="primary-title"><?= $block->text() ?></p>
+                            <p class=""><?= $block->text() ?></p>
 
                         <?php else: ?>
 

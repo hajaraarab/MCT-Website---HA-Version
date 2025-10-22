@@ -1,7 +1,4 @@
 <?php snippet('header') ?>
 
-<div class="container">
-    <h1><?= $page->title() ?></h1>
-</div>
-
+<?php snippet('courses-table') ?>
 <?php snippet('footer') ?>
