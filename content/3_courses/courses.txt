@@ -2,7 +2,216 @@ Title: Courses
 
 ----
 
-cover: cover.png
+Courses:
+
+- 
+  subject: Multi Media Essentials
+  studypoints: 4
+  year: First year
+  profile: General
+  period: P1
+- 
+  subject: Audio/Video (AV)
+  studypoints: 5
+  year: First year
+  profile: General
+  period: P2
+- 
+  subject: 'Project creëren & ondernemen'
+  studypoints: 10
+  year: Second year
+  profile: General
+  period: P1
+- 
+  subject: 3D development
+  studypoints: 3
+  year: First year
+  profile: General
+  period: P2
+- 
+  subject: '3D modeling & animation'
+  studypoints: 4
+  year: First year
+  profile: General
+  period: P3
+- 
+  subject: Web development
+  studypoints: 5
+  year: First year
+  profile: General
+  period: P4
+- 
+  subject: Programming 1
+  studypoints: 4
+  year: First year
+  profile: General
+  period: P3
+- 
+  subject: Programming 2
+  studypoints: 4
+  year: First year
+  profile: General
+  period: P2
+- 
+  subject: Graphics
+  studypoints: 5
+  year: First year
+  profile: General
+  period: P1
+- 
+  subject: Storytelling
+  studypoints: 4
+  year: First year
+  profile: General
+  period: P2
+- 
+  subject: Computernetwerking
+  studypoints: 3
+  year: First year
+  profile: General
+  period: P2
+- 
+  subject: Electronics
+  studypoints: 5
+  year: First year
+  profile: General
+  period: P3
+- 
+  subject: 'Project & selfmanagement'
+  studypoints: 6
+  year: First year
+  profile: General
+  period: P1
+- 
+  subject: English
+  studypoints: 4
+  year: First year
+  profile: General
+  period: P1
+- 
+  subject: 'Intercultural communication '
+  studypoints: 4
+  year: First year
+  profile: General
+  period: P1
+- 
+  subject: 'Project creation & entrepreneurship'
+  studypoints: 10
+  year: Second year
+  profile: General
+  period: P3
+- 
+  subject: Audio/Video (AV)production
+  studypoints: 3
+  year: Second year
+  profile: av
+  period: P3
+- 
+  subject: Prototyping
+  studypoints: 4
+  year: Second year
+  profile: General
+  period: P3
+- 
+  subject: Fablab experience
+  studypoints: 4
+  year: Second year
+  profile: General
+  period: P1
+- 
+  subject: 'AI Tools: prompt engineering'
+  studypoints: 3
+  year: Second year
+  profile: General
+  period: P4
+- 
+  subject: User Experience (UX)
+  studypoints: 3
+  year: Second year
+  profile: General
+  period: P4
+- 
+  subject: Extended Reality (XR)
+  studypoints: 5
+  year: Second year
+  profile: General
+  period: P4
+- 
+  subject: Motion Graphics
+  studypoints: 3
+  year: Second year
+  profile: General
+  period: P4
+- 
+  subject: Programming principles
+  studypoints: 4
+  year: Second year
+  profile: web
+  period: P4
+- 
+  subject: Advanced programming
+  studypoints: 6
+  year: Second year
+  profile: web
+  period: P4
+- 
+  subject: Web Development basics
+  studypoints: 4
+  year: Second year
+  profile: web
+  period: P4
+- 
+  subject: Advanced web development
+  studypoints: 6
+  year: Second year
+  profile: web
+  period: P4
+- 
+  subject: Web production
+  studypoints: 5
+  year: Second year
+  profile: web
+  period: P3
+- 
+  subject: 'Philosophy of life '
+  studypoints: 5
+  year: Third year
+  profile: General
+  period: P3
+- 
+  subject: Trendwatching
+  studypoints: 5
+  year: Third year
+  profile: General
+  period: P1
+- 
+  subject: 'New technology '
+  studypoints: 5
+  year: Third year
+  profile: General
+  period: P1
+- 
+  subject: Multimedia ambassadeur
+  studypoints: 5
+  year: Third year
+  profile: General
+  period: P2
+- 
+  subject: Bachelor project
+  studypoints: 15
+  year: Third year
+  profile: General
+  period: P2
+- 
+  subject: Stage
+  studypoints: 15
+  year: Third year
+  profile: General
+  period: P4
+
+----
+
+Cover: cover.png
 
 ----
 

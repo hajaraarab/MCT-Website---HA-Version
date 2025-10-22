@@ -1,6 +1,6 @@
 name: heading
+label: Heading
 fields:
-  yearSummaryHeading:
-    label: heading
+  text:
+    label: Heading text
     type: text
-    max: 2

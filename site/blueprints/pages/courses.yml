@@ -1,0 +1,49 @@
+title: Courses
+
+columns:
+  - width: 1/1
+    fields: 
+      courses: 
+        label: All subjects within this field.
+        type: structure
+        pretty: true
+        fields: 
+          subject: 
+            label: Subject
+            type: text
+            required: true
+          studyPoints: 
+            label: Study Points 
+            type: range
+            min: 0
+            max: 30
+            step: 1
+            required: true
+          year: 
+            label: Year this course is offered 
+            type: select 
+            options: 
+              - First year 
+              - Second year 
+              - Third year
+            required: true
+          profile: 
+            label: Profile (from the second year)
+            type: select
+            help: From the second year onwards, you choose a specialization Web, AV or 3D
+            options: 
+              General: General
+              web: Web 
+              av: AV 
+              3d: 3D 
+            required: true
+          period: 
+            label: Teaching period
+            type: select
+            options: 
+              - P1
+              - P2
+              - P3
+              - P4
+            required: true
+          
