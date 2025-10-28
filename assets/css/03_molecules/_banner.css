@@ -10,6 +10,21 @@
     }
 }
 
+.margin{
+    margin-top: 60px; 
+}
+
+.events .banner {
+    flex-direction: column;
+    gap: 0; 
+    margin: 0; 
+    text-align: center;
+
+    .primary-title, .primary-text p {
+        padding-top: 0; 
+        margin-top: 0; 
+    }
+}
 .enroll .banner {
     flex-direction: row;
     justify-content: center;

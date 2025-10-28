@@ -34,21 +34,23 @@
 ?>
 
 <div class="courses">
-    <div class="banner">
-        <p class="primary-title"><?= $page->title() ?></p>
+    <div class="margin">
+        <div class="banner">
+            <p class="primary-title"><?= $page->title() ?></p>
 
-        <div class="titles">
-            <p class="secondary-title">First year</p>
-            <p class="secondary-title">Second year</p>
-            <p class="secondary-title">Third year</p>
-        </div>
-        <div class="filter-btns">
-            <form method="GET">
-                <button class="filter-btn" name="filter" value="allcourses">All courses</button>
-                <button class="filter-btn" name="filter" value="firstyear">First Year</button>
-                <button class="filter-btn" name="filter" value="secondyear">Second Year</button>
-                <button class="filter-btn" name="filter" value="thirdyear">Third Year</button>
-            </form>
+            <div class="titles">
+                <p class="secondary-title">First year</p>
+                <p class="secondary-title">Second year</p>
+                <p class="secondary-title">Third year</p>
+            </div>
+            <div class="filter-btns">
+                <form method="GET">
+                    <button class="filter-btn" name="filter" value="allcourses">All courses</button>
+                    <button class="filter-btn" name="filter" value="firstyear">First Year</button>
+                    <button class="filter-btn" name="filter" value="secondyear">Second Year</button>
+                    <button class="filter-btn" name="filter" value="thirdyear">Third Year</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>

@@ -1,0 +1,110 @@
+title: Events
+
+columns:
+  - width: 1/1
+    fields:
+      pageTitle:  
+        label: Title for this section
+        type: text
+      pageText: 
+        label: Text for this section
+        type: textarea
+
+
+  - width: 1/2
+    fields: 
+      infoDaysHeadline: 
+        label: Info Days Section
+        type: headline
+      infoDaysTitle: 
+        label: Title for this section
+        type: text
+
+      infodays: 
+        label: The infodays upcoming year
+        type: structure
+        fields: 
+          infoday: 
+            label: Date of the event 
+            type: date 
+          infodayLocation: 
+            label: Location of the event
+            type: text 
+        max: 3
+
+  - width: 1/2
+    fields: 
+      infodaysHeadline:
+        label: Icon for the events 
+        type: headline
+      infoDaysIcon:
+        label: Info days icon
+        type: files
+        max: 1
+        layout: cards
+        accept:
+          type: image
+        image:
+          cover: true
+          ratio: 16/9
+      infodaysImage: 
+        label: Photo of students during the information days
+        type: files
+        max: 1
+        layout: cards
+        accept: 
+          type: image
+        image:  
+          cober: true
+          ratio: 16/9
+
+  - width: 1/1
+    fields: 
+      eventsHeadline: 
+        label: Events section
+        type: headline
+      eventsTitle: 
+        label: Title for this section
+        type: text
+      eventsText: 
+        label: Text for this section
+        type: textarea
+      eventsSubtitle: 
+        label: Subtitle for this section
+        type: text
+      events: 
+        label: The events upcoming year
+        type: structure
+        max: 3
+        fields: 
+          eventName: 
+            label: Name of the event
+            type: text 
+          eventDate: 
+            label: Date of the event
+            type: date 
+          eventImage: 
+            label: Icon for this event
+            type: files
+            max: 1
+            layout: cards
+            accept:
+              type: image
+            image:
+              cover: true
+              ratio: 16/9
+
+      eventsHeaderImage:
+        label: Photo of students during events organized by the school
+        type: files
+        max: 1
+        layout: cards
+        accept: 
+          type: image
+        image: 
+          cover: true
+          ratio: 16/9 
+
+          
+        
+          

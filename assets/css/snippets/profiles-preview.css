@@ -10,6 +10,19 @@
     width: 50%; 
 }
 
+.profile-card {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    p {
+        margin: 0; 
+        padding: 0; 
+    }
+}
+
 /* Links: de cards */
 .profile-links {
     display: flex;
@@ -20,11 +33,6 @@
     padding: 70px; 
 
     .profile-card {
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
         flex: 1 1 45%; 
     }
     

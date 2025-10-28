@@ -1,1 +1,24 @@
 @import url('../templates/index.css');
+
+.events .banner {
+    text-align: center;
+}
+
+.infodays-cards {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%; 
+    gap: 20%; 
+    padding: 2%;
+}
+
+.infodays-image {
+    padding: 5%; 
+
+    img {
+        max-width: 100%; 
+    }
+}

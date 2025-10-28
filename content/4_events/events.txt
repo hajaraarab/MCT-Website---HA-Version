@@ -2,7 +2,84 @@ Title: Events
 
 ----
 
-cover: cover.png
+Pagetitle: Upcoming Info Days
+
+----
+
+Pagetext: Discover our upcoming information days in your area.
+
+----
+
+Infodaystitle: Info Days Schedule
+
+----
+
+Infodays:
+
+- 
+  infoday: 2026-06-20
+  infodaylocation: Campus hoboken
+  eventday: 2026-05-20 00:00:00
+  eventlocation: Hoboken Campus
+- 
+  infoday: 2025-06-15
+  infodaylocation: Campus hoboken
+  eventday: 2026-06-15 00:00:00
+  eventlocation: Hoboken Campus
+- 
+  infoday: 2026-07-16
+  infodaylocation: Campus hoboken
+  eventday: 2026-06-10 00:00:00
+  eventlocation: Hoboken Campus
+
+----
+
+Infodaysicon: - file://sRSrlg7CLJxYs6Qk
+
+----
+
+Infodaysimage: - file://RZJug0Eto5Umqaat
+
+----
+
+Eventstitle: School Events
+
+----
+
+Eventstext: Engage with our community through exciting school events.
+
+----
+
+Eventssubtitle: Upcoming Events
+
+----
+
+Events:
+
+- 
+  eventname: Fraternities/Sororities
+  eventdate: 2026-09-01
+  eventimage:
+    - file://UhNgASSV4vthnpO0
+  eventday: ""
+- 
+  eventname: Welcome Ceremony
+  eventdate: 2026-09-10
+  eventimage:
+    - file://FYjqxxyHwLM1P4ir
+- 
+  eventname: Graduation Ceremony
+  eventdate: 2026-06-30
+  eventimage:
+    - file://fGQf2xezzL2WHwfZ
+
+----
+
+Eventsheaderimage: - file://DmlThMLxIIGSv1fI
+
+----
+
+Cover: cover.png
 
 ----
 
