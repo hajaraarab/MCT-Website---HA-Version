@@ -16,7 +16,7 @@
         <p class="primary-text"><?= $aboutPage->previewText() ?></p>
 
         <div class="readmore-btn-container">
-            <a class="readmore-btn" href="">Read More</a>
+            <a class="readmore-btn" href="about">Read More</a>
         </div>
     </div>
 </div>

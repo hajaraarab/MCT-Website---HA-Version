@@ -1,13 +1,104 @@
+@keyframes openMenu {
+  0% { transform: translateX(120%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes closeMenu {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(120%); }
+}
+
+.header {
+    position: fixed; 
+    /* top: 0; 
+    left: 0;  */
+    width: 100%; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: clamp(1.5vw, 5px, 1vh) clamp(5vw, 60px, 10vw); 
+    box-sizing: border-box;
+    align-items: center;
+    height: 50px; 
+}
+
+.header a {
+    list-style: none; 
+    text-decoration: none;
+    color: inherit; 
+}
 .menu ul {
     display: flex; 
-    gap: 30px; 
-    list-style: none;
-    text-decoration: none;
+    list-style: none; 
 }
-.menu a.active {
-    color: var(--primary-color); 
+
+.menu-toggle {
+    display: none; 
+    background: none;
+    border: none; 
+    transition: transform 0.3s ease, color 0.3s ease;
     font-weight: 700; 
 }
-.menu a:hover {
-    text-decoration: underline; /* Optioneel, om hover te onderscheiden */
+.menu-toggle.open {
+    color: var(--primary-color); 
+    transform: rotate(90deg);
+}
+.menu.active {
+    animation: openMenu 0.3s forwards ease-out; 
+}
+.menu.closing {
+    animation: closeMenu 0.3s forwards ease-in; 
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        position: fixed; 
+        top: 55px; 
+        right: 0; 
+        height: 100%; 
+        width: 80%; 
+        background-color: white;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+        transform: translateX(120%); /* Zorgt ervoor dat de menu ook open en dicht gaat wanneer je op de knop drukt */
+        display: flex; 
+        flex-direction: column;
+        box-sizing: border-box;
+        transition: transform 0.3s ease; 
+        z-index: 999; 
+        border-radius: var(--border-radius);
+    }
+    .menu-toggle {
+        display: block; 
+    }
+
+    .menu ul {
+        display: flex; 
+        flex-direction: column;
+    }
+    .menu ul li {
+        padding: 20px; 
+    }
+    .menu ul li:hover {
+        color: var(--primary-color); 
+        font-weight: 700;
+        border-bottom: 2px solid var(--primary-color); 
+        background-color: var(--secondary-color);
+        border-radius: var(--border-radius); 
+    }
+}
+
+@media (min-width: 768px) {
+    .menu a.active {
+    color: var(--primary-color); 
+    font-weight: 700; 
+    }
+    .menu a:hover {
+        text-decoration: underline;
+    }
+    .menu ul {
+        gap: 30px; 
+    }
 }

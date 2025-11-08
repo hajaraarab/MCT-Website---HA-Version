@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    /* TITLES */
+    .primary-title {
+        font-size: 30px; 
+    }
+    .secondary-title {
+        font-size: 20px;
+    }
+    .tertiary-title {
+        font-size: 15px;
+    }
+    .hero-section .primary-title {
+        font-size: 20px;
+    }
+
+    /* TEXT */
+    .main-text, .answer-text {
+        font-size: 16px; 
+    }
+    .menu-text {
+        font-size: 17px; 
+    }
+    .primary-text {
+        font-size: 13px; 
+    }
+    .name {
+        font-size: 13px; 
+    }
+
+
+
+
+    /* BUTTONS */
+    .readmore-btn {
+        font-size: 14px; 
+    }
+
+    /* ANDER */
+    .line {
+        display: none; 
+    }
+}

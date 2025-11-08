@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+
 <?php snippet('hero') ?>
 <div class="line"></div>
 
@@ -25,8 +26,3 @@
 
 <?php snippet('faq') ?>
 
-<div class="container">
-    <?php snippet('contact') ?>
-</div>
-
-<?php snippet('footer') ?>

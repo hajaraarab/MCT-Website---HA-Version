@@ -1,5 +1,6 @@
 @import url('../00_common/_variables.css'); 
 @import url('../01_fundaments/_fonts.css'); 
+@import url('../01_fundaments/_typography.css'); 
 @import url('../02_atoms/_buttons.css'); 
 @import url('../02_atoms/_line.css'); 
 @import url('../03_molecules/_menu.css'); 
@@ -7,7 +8,9 @@
 @import url('../03_molecules/_contact.css'); 
 @import url('../03_molecules/_table.css'); 
 
-@import url('../snippets/header.css');
+@import url('../05_layouts/_mobile.css'); 
+@import url('../05_layouts/_desktop.css'); 
+
 @import url('../snippets/hero.css');
 @import url('../snippets/about-preview.css');
 @import url('../snippets/profiles-preview.css');
@@ -30,4 +33,11 @@ html, body {
     margin: 0 auto;
     display: flex; 
     flex-direction: column;
+}
+
+.courses .margin{
+    margin-top: 60px; 
+}
+.events .margin {
+    margin-top: 72px; 
 }

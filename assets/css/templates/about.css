@@ -1,5 +1,9 @@
 @import url('../templates/index.css');
 
+.hero-section .primary-title {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .about-this-course {
     text-align: center;
     margin-bottom: 70px; 

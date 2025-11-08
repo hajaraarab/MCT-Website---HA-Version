@@ -7,7 +7,7 @@
 <div class="enroll">
     <div class="banner">
         <?php if($schoolLogo): ?>
-            <img src="<?= $schoolLogo->url() ?>" >
+            <img class="banner-img" src="<?= $schoolLogo->url() ?>"  alt="<?=$schoolLogo->alt() ?>">
         <?php endif ?>
 
         <div class="banner-info">

@@ -1,62 +1,76 @@
+/* Gemeenschappelijke banner-stijlen */
 .banner {
-    display: flex; 
-    gap: 30px; 
-    background-color: #1D1D1D;
-    color: white; 
-    padding: 30px; 
-
-    img {
-        width: 12%; 
-    }
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.banner-img {
+    width: 12%;
 }
 
-.margin{
-    margin-top: 60px; 
+/* Banner-info gedeelde styling */
+.banner-info {
+    display: flex;
+    flex-direction: column;
+}
+.banner-info .secondary-title {
+    margin-bottom: 10px;
+}
+.banner-info .main-text {
+    margin-top: 0;
 }
 
+/* Per context aanpassen */
 .events .banner {
     flex-direction: column;
-    gap: 0; 
-    margin: 0; 
+    gap: 0;
+    margin: 0;
     text-align: center;
 
-    .primary-title, .primary-text p {
-        padding-top: 0; 
-        margin-top: 0; 
+    .primary-title,
+    .primary-text p {
+        margin-top: 0;
+        padding-top: 0;
     }
 }
+
 .enroll .banner {
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 .courses .banner {
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap: 0; 
+    gap: 0;
 
     .titles {
-        display: flex; 
+        display: flex;
         flex-direction: row;
-        gap: 20px; 
+        gap: 20px;
     }
-    .primary-title, .titles p {
-        padding-top: 0; 
-        margin-top: 0; 
+
+    .primary-title,
+    .titles p {
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
 
-.banner-info {
-    display: flex; 
-    flex-direction: column;
+/* MOBILE */
+@media (max-width: 768px) {
+    .enroll .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-img {
+        width: 30%;
+    }
 
-    .secondary-title {
-        margin-bottom: 10px; 
-    }
-    .main-text {
-        margin-top: 0; 
-    }
 }

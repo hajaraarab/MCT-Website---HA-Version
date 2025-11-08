@@ -1,31 +1,30 @@
 .courses-preview {
-    padding: 50px; 
-    padding-bottom: 150px; 
-    padding-top: 0; 
-
-    .primary-title {
-        text-align: center;
-        padding: 40px; 
-    }
+    padding-top: 30px; 
+    margin-bottom: 100px;
+}
+.courses-preview .primary-title {
+    text-align: center;
+    margin-top: 10vh; 
+    margin-bottom: 5vh; 
 }
 
 .courses-preview-cards, .courses-preview-card {
     display: flex;
-    flex-direction: row;
 }
 .courses-preview-cards {
-    gap: 60px; 
+    gap: 30px; 
+    flex-direction: column;
 }
 
 .courses-preview-card {
+    flex-direction: row;
     gap: 20px; 
     border: 2px solid var(--secondary-color); 
     border-radius: var(--border-radius);
     padding: 10px; 
-
-    &:hover {
-        background-color: var(--secondary-color);
-    }
+}
+.courses-preview-card &:hover {
+    background-color: var(--secondary-color);
 }
 
 /* DIT MOET NOG GEOPTIMALISEERD WORDEN */
@@ -41,3 +40,21 @@
     flex-direction: column;
     justify-content: center;
 }
+
+/* MOBILE */
+@media (min-width: 768px) {
+    .courses-preview-cards {
+        flex-direction: row;
+    }
+    .courses-preview {
+        padding: 50px; 
+        padding-bottom: 150px; 
+    }
+    .courses-preview  .primary-title {
+        margin-top: 0;
+    }
+    .courses-preview-cards {
+        gap: 60px; 
+    }
+}
+

@@ -9,14 +9,14 @@
     background-color: var(--primary-color);
     border: none;  
     border-radius: var(--border-radius);
+}
 
-    &:hover {
+.primary-btn:hover {
     /* TEXT */
     text-decoration: underline;
 
     /* BUTTON */
     background-color: var(--primary-color-darker);
-}
 }
 
 .secondary-btn {
@@ -29,12 +29,11 @@
     background-color: white;
     padding: 10px 30px 10px 30px; 
     border-radius: var(--border-radius);
-
-    &:hover {
-        background-color: var(--primary-color);
-        color: white; 
-        text-decoration: underline;
-    }
+}
+.secondary-btn:hover {
+    background-color: var(--primary-color);
+    color: white; 
+    text-decoration: underline;
 }
 
 .readmore-btn {
@@ -45,9 +44,8 @@
     font-weight: 700;
     padding: 0; 
     margin: 0; 
-
-    &:hover {
-        color: var(--primary-color-darker); 
-        text-decoration: underline;
-    }
+}
+.readmore-btn:hover {
+    color: var(--primary-color-darker); 
+    text-decoration: underline;
 }

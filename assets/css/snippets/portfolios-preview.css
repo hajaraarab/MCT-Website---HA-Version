@@ -3,14 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 70px; 
-
-    .primary-title {
-        margin-bottom: 0; 
-    }
-    .main-text {
-        margin-bottom: 70px; 
-    }
+    margin-top: 50px; 
+}
+.portfolios-preview .primary-title {
+    margin-bottom: 0; 
+}
+.portfolios-preview .primary-text {
+    margin-bottom: 50px; 
 }
 
 .portfolio-cards {
@@ -18,28 +17,43 @@
     flex-direction: row;
     flex-wrap: wrap; 
     padding-top: 0; 
-    padding-bottom: 70px; 
+    padding-bottom: 30px; 
     align-items: center;
     justify-content: center;
     gap: 20px; 
+    width: 100%; 
 }
 
 .portfolio-card {
     display: flex; 
     align-items: center;
     flex-direction: row;
-    flex: 0 1 45%;
     gap: 20px; 
     border: 3px solid var(--secondary-color); 
     border-radius: var(--border-radius); 
     padding: 10px; 
+}
+.portfolio-card img {
+    width: 30%; 
+    height: 100%; 
+    border-radius: var(--border-radius);
+}
 
-    img {
-        width: 20%; 
-        height: 80%; 
-        border-radius: var(--border-radius);
+.portfolio-card img:hover {
+    background-color: var(--secondary-color);
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+    .portfolio-card {
+        flex: 0 1 45%;
+
+        img {
+            width: 20%; 
+            height: 80%; 
+        }
     }
-    &:hover {
-        background-color: var(--secondary-color);
+    .portfolio-cards{
+        padding-bottom: 70px; 
     }
 }

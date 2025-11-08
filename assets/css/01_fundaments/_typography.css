@@ -1,0 +1,41 @@
+/* TITLES */
+.logo {
+    font-family: 'KdG-Regular'; 
+    font-size: clamp(16px, 2vw, 24px); 
+    font-weight: 600; 
+}
+.primary-title {
+    font-family: 'KdG-Regular';
+    font-size: 35px; 
+}
+.secondary-title {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700; 
+}
+.tertiary-title {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 600; 
+    color: var(--primary-color); 
+    margin-bottom: 5px; 
+}
+
+/* TEXT */
+.main-text, .answer-text {
+    font-family: 'Roboto';
+    font-size: 13px; 
+}
+.menu-text {
+    font-family: 'Roboto';
+    font-size: 17px; 
+}
+.primary-text {
+    font-family: 'Roboto';
+    font-size: 16px; 
+}
+.name {
+    font-family: 'Roboto';
+    font-size: 11px; 
+    font-weight: 500;
+}

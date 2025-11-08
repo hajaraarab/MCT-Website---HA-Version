@@ -1,5 +1,5 @@
 @import url('../templates/index.css');
 
-.courses{
+.courses, .events{
     margin-top: 2vh; 
 }

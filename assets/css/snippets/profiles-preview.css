@@ -1,13 +1,13 @@
+.background {
+    background-color: var(--secondary-color);
+    margin-top: 5vh; 
+}
+
 .profiles-preview {
     display: flex; 
     flex-direction: row;
     width: 100%;
     gap: 20px; 
-    background-color: #F2F2F2;
-}
-
-.profile-links, .profiles-overview {
-    width: 50%; 
 }
 
 .profile-card {
@@ -17,20 +17,16 @@
     justify-content: center;
     box-sizing: border-box;
 
-    p {
-        margin: 0; 
-        padding: 0; 
-    }
 }
 
 /* Links: de cards */
-.profile-links {
+.profile-cards {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px; 
     flex-wrap: wrap;
-    padding: 70px; 
+    padding: 8vh 1vw;
 
     .profile-card {
         flex: 1 1 45%; 
@@ -42,24 +38,34 @@
         text-decoration: none;
 
         &:hover {
-            color: red ;
-            text-decoration: underline;
+            font-weight: 700; 
         }
+    }
+
+    a:hover, .title:hover {
+        text-decoration: underline;
+    }
+
+    .title {
+        margin-bottom: 0;
     }
 }
 
 
 .profiles-overview {
     text-align: right;
-    padding: 10vh; 
+    padding: 7vh; 
 }
 
 .icon-circle {
     background-color: white; 
     border-radius: 50%;
     padding: 2vh; 
-    width: 50px; 
-    height: 50px; 
+    width: 5vw; 
+    height: 5vw; 
+    max-width: 50px;
+    max-height: 50px;
+    
 
     img {
         width: 100%; 
@@ -71,9 +77,19 @@
     }
 }
 
-.profile-card .title {
+/* MOBILE */
+@media (max-width: 768px) {
+    .profiles-preview {
+        flex-direction: column;
+    }
 
-    &:hover {
-        text-decoration: underline;
+}
+/* DESKTOP */
+@media (min-width: 768px) {
+    .profile-cards, .profiles-overview {
+        width: 50%; 
+    }
+    .profiles-preview {
+        gap: 20px; 
     }
 }
